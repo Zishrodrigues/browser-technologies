@@ -1,8 +1,8 @@
 # Browser technologies: Funda web app
 
-On this README.md I will describe my funda app in both it's appearance and functionality. See [WISHLIST.md](WISHLIST.md) for a progressive enhancement wishlist and the test results for Browser Technologies.
+On this README.md I will describe my funda app in both it's appearance and functionality. See [WISHLIST.md](WISHLIST.md) for a progressive enhancement/accessibility test and fix wishlist for Browser Technologies.
 
-[Progressive enhancement wishlist](WISHLIST.md)
+[Progressive enhancement/accessibility rest and wishlist](WISHLIST.md)
 
 ## The Funda app
 
@@ -25,3 +25,5 @@ General results page
 Detail page
 
 ![Funda app screenshot4](screenshots/funda-4.jpg)
+
+[Progressive enhancement/accessibility rest and wishlist](WISHLIST.md)
