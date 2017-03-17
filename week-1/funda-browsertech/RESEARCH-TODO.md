@@ -118,3 +118,5 @@ All in all there is still a lot that could be improved on in terms of progressiv
 * Compress and reduce image file size
 * If cookies or localstorage fails, use an external database connected to a account
 * Change radiobuttons to links or add extra description on how tabbing works
+
+[Back to README.md](README.md)
