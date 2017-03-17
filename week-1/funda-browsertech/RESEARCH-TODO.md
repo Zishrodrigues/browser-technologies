@@ -55,3 +55,21 @@ My Funda app has a strong contrast between elements. If a text is white, than th
 ## TO DO (fixes)
 
 A good way to deal with the risk of images losing their feel because of broken or different colors is to add a small description. So an image of a quiet neighborhood could have the description of "Calm, quiet neighborhood". It's also wise to make sure I keep the contrast between text, buttons and other elements and their background clear.
+
+## 5.Broadband internet
+
+## Progressive enhancement/accessibility.
+
+When testing on a regular 2g network with 300ms the page takes up to 40 seconds to load because of the high use  of images. This means that the app isn't optimized for mobile devices that aren't on wifi or a good cellular connection.
+
+![Funda app screenshot - network](screenshots/broadband.jpg)
+
+## TO DO (fixes)
+
+A sure fire way to fix the loading time it so compress images. Reduce their pixel ratio and quality to get a better file size. A blurring load could also help the perceived performance, the users get an idea of what they're waiting for.
+
+## 6.Cookies
+
+## Progressive enhancement/accessibility.
+
+## TO DO (fixes)
