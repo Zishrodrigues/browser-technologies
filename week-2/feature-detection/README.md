@@ -4,7 +4,10 @@ Webp is a relativly new image format. It has a huge benefit on file size and mak
 
 ## Example code
 
+```
 <picture>
   <source srcset="owl.jpg" type="image/webp">
   <img src="owl.jpg" alt="Owl">
 </picture>
+
+```
