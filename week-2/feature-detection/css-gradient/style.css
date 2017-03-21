@@ -1,0 +1,7 @@
+section {
+    width:50%;
+    height: 40em;
+    margin: 0 auto;
+    background-color: red;
+    background-image: linear-gradient(red, orange);
+}
