@@ -1,0 +1,12 @@
+div {
+    display: block;
+    flex-direction: row;
+    display: flex;
+}
+
+div section {
+    width:10em;
+    height: 10em;
+    border:0.3em green dashed;
+    display: inline-block;
+}
