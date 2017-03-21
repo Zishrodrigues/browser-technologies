@@ -6,8 +6,9 @@ Webp is a relativly new image format. It has a huge benefit on file size and mak
 
 ```
 <picture>
-  <source srcset="owl.jpg" type="image/webp">
+  <source srcset="owl.webp" type="image/webp">
   <img src="owl.jpg" alt="Owl">
 </picture>
 
 ```
+If the browser doesn't support webp then it will fallback to the jpg.
