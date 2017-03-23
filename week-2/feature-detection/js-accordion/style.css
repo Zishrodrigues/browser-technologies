@@ -1,0 +1,30 @@
+.accordion.js > * {
+  overflow: hidden;
+}
+
+.accordion.js > *:not(.expanded) > *:not(h1) {
+  max-height: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.accordion.js > .expanded > *:not(h1) {
+  max-height: 10em;
+  opacity: 1;
+  visibility: visible;
+}
+
+.accordion.js > * > h1 {
+  cursor: pointer;
+  visibility: visible;
+  border: 1px green solid;
+}
+
+.accordion.js > * > *:not(h1) {
+  transition: max-height 1s,
+    visibility 1s,
+    margin 1s,
+    opacity 1s;
+}
