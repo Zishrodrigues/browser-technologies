@@ -13,3 +13,5 @@ section {
 
 ```
 If the browser doesn't support using a gradient as background color, then the background color will be rendered as red.
+
+[Directory with the micro-projects](http://oege.ie.hva.nl/~khushiz001/browsertech/)
