@@ -24,3 +24,5 @@ This accordion is made using vanilla Javascript. This means most browsers will b
 If Javascript isn't used, the headers and paragraphs will still be shown.
 
 *Code credits to Will Mitchell*
+
+[Directory with the micro-projects](http://oege.ie.hva.nl/~khushiz001/browsertech/)
