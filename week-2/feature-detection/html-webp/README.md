@@ -12,3 +12,5 @@ Webp is a relativly new image format. It has a huge benefit on file size and mak
 
 ```
 If the browser doesn't support webp then it will fallback to the jpg.
+
+[Directory with the micro-projects](http://oege.ie.hva.nl/~khushiz001/browsertech/)
