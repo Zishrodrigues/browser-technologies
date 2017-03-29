@@ -19,3 +19,5 @@ someElement.onkeydown = function() {
 If the browser doesn't support onkeydown it will use oninput.
 
 *Inspired by bswisher*
+
+[Directory with the micro-projects](http://oege.ie.hva.nl/~khushiz001/browsertech/)

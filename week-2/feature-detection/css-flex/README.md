@@ -20,3 +20,5 @@ div section {
 
 ```
 If the browser doesn't support flexbox than it will fall back to using display: inline-block.
+
+[Directory with the micro-projects](http://oege.ie.hva.nl/~khushiz001/browsertech/)
