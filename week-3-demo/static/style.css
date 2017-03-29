@@ -1,7 +1,35 @@
-section {
-    width:50%;
-    height: 40em;
-    margin: 0 auto;
-    background-color: red;
-    background-image: linear-gradient(red, orange);
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1em;
+    margin:0;
+}
+
+.addressBook {
+    border: 1px red dashed;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+.addressBook li {
+    border: 1px green dashed;
+    padding: 1.5em;
+    margin: 0;
+}
+
+.stickyHeader {
+    background-color: orange;
+    position: sticky;
+    top:3em;
+}
+
+input[type="text"] {
+    margin: 0;
+    width: 100%;
+    padding: 1em;
+    position: sticky;
+    top: 0;
 }
