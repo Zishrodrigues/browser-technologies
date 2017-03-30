@@ -1,0 +1,37 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "browser-tech-project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "browserify public/js/client.js -o build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuriGuilano/final-browsertech.git"
+  },
+  "keywords": [
+    "browser-technology"
+  ],
+  "author": "ioannis kapritsias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuriGuilano/final-browsertech/issues"
+  },
+  "homepage": "https://github.com/TuriGuilano/final-browsertech#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "fetch": "^1.1.0",
+    "https": "^1.0.0",
+    "nodemon": "^1.11.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "dotenv": "^4.0.0"
+  }
+}

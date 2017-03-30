@@ -1,0 +1,14 @@
+<% include head.ejs %>
+
+<ul class="addressBook">
+  <% contacts.forEach(function(contact) { %>
+
+      <li>
+          <a href="#">
+              <%= contact.first_name %>
+          </a>
+      </li>
+
+  <% });%>
+</ul>
+<% include foot.ejs %>

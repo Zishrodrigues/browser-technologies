@@ -1,0 +1,16 @@
+{
+  "short_name": "BT-app",
+  "name": "Browsertechnologies Node-app",
+  "start_url": "/?homescreen=1",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#008b8b",
+  "background_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "images/contact.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

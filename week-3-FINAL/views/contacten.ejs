@@ -1,0 +1,13 @@
+<% include head.ejs %>
+
+  <h1>Contacten overzicht pagina</h1>
+
+  <% contacts.forEach(function(contact) { %>
+
+    <article>
+      <%= contact.first_name %>
+    </article>
+
+  <% })%>
+
+<% include foot.ejs %>
