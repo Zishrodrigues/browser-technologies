@@ -30,3 +30,21 @@ If you get the message ```app listening in port 3000 ``` the server started succ
 My demo is a dynamic list of contacts.
 
 ![overview page](https://raw.githubusercontent.com/zishrodrigues/browser-technologies/master/week-3-FINAL/screenshots/overview.jpg)
+
+## Testing fallbacks & feature detection
+
+#### Internet Explorer
+
+I tested the project on several versions of Internet Explorer (9+). Sticky position doesn't work but the app still works fine due to the fallback of having headers and the client-side search function
+
+#### Chrome (masterrace)
+
+All versions of Chrome that i've tested (55+) run the app without issues.
+
+#### Opera
+
+I tested on Opera version 44 and the app worked fully.
+
+#### No Javascript
+
+Without Javascript my serverside fallback is enabled. The app still has it's search function and the sticky position works if the browser in question supports it. I tested in Chrome and it worked.
