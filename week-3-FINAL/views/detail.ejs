@@ -1,0 +1,25 @@
+<% include head.ejs %>
+    <section class="detailSection">
+        <h1>Details</h1>
+        <img src="https://files.brightside.me/files/news/part_11/112505/359405-14272960-R3L8T8D-650-cute-chicks-playful-owl-4198-1366x768__880-650-12bc3df582-1478518566.jpg" alt="contactperson image">
+
+        <% contacts.forEach(function(contact) { %>
+
+          <ul class="detail">
+              <li>
+                  <%= contact.first_name %> <%= contact.last_name %>
+              </li>
+              <li>
+                  <%= contact.email %>
+              </li>
+              <li>
+                  <%= contact.gender %>
+              </li>
+          </ul>
+
+        <% })%>
+
+        <a href="/">Back to list</a>
+    </section>
+
+<% include foot.ejs %>

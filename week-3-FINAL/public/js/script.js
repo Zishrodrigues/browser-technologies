@@ -1,7 +1,7 @@
 removeButton();
 
 function removeButton() {
-        document.getElementById('formButton').style.display = 'none';
+    document.getElementById('formButton').style.display = 'none';
 }
 
 function filtering() {

@@ -5,6 +5,7 @@
 body {
     padding: 1em;
     margin:0;
+    font-family: sans-serif;
 }
 
 form {
@@ -42,6 +43,7 @@ form button {
 
 .addressBook li a {
     margin:0;
+    font-size: 1.2em;
 }
 
 .addressBook .letterMarker {
@@ -70,14 +72,76 @@ form button {
     border: 0.1em #866eba solid;
 }
 
+.a a {
+    color: #866eba;
+}
+
 .b {
     border: 0.1em #518bb0 solid;
+}
+
+.b a {
+    color: #518bb0;
 }
 
 .c {
     border: 0.1em #ff0a27 solid;
 }
 
+.c a {
+    color: #ff0a27;
+}
+
 .d {
     border: 0.1em #30c259 solid;
+}
+
+.d a {
+    color: #30c259;
+}
+
+/* DETAIL */
+.detailSection {
+    border: 0.1em #866eba solid;
+    max-width: 40em;
+    padding: 1em;
+    overflow-x: hidden;
+}
+
+.detailSection h1 {
+    color: #ffffff;
+    background-color: #866eba;
+    text-align: center;
+    padding:1em;
+    margin:0;
+}
+
+.detailSection img {
+    max-width: 100%;
+}
+
+.detailSection ul {
+    color: #866eba;
+}
+
+.detailSection li {
+    color: #866eba;
+    font-size: 2em;
+}
+
+.detailSection a {
+    color: #ffffff;
+    background-color: #866eba;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 1em;
+    display: inline-block;
+    margin-top: 1em;
+    border: 0.1em #ffffff solid;
+}
+
+.detailSection a:hover {
+    color: #866eba;
+    background-color: #ffffff;
+    border: 0.1em #866eba solid;
 }

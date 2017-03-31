@@ -14,7 +14,7 @@
     <% contacts.forEach(function(contact) { %>
         <% if (contact.first_name.match("^A")) { %>
             <li class="a">
-                <a href="#">
+                <a href="<%= contact.first_name %>">
                     <%= contact.first_name %>
                 </a>
             </li>
@@ -25,7 +25,7 @@
     <% contacts.forEach(function(contact) { %>
         <% if (contact.first_name.match("^B")) { %>
             <li class="b">
-                <a href="#">
+                <a href="<%= contact.first_name %>">
                     <%= contact.first_name %>
                 </a>
             </li>
@@ -36,7 +36,7 @@
      <% contacts.forEach(function(contact) { %>
          <% if (contact.first_name.match("^C")) { %>
              <li class="c">
-                 <a href="#">
+                 <a href="<%= contact.first_name %>">
                      <%= contact.first_name %>
                  </a>
              </li>
@@ -47,7 +47,7 @@
           <% contacts.forEach(function(contact) { %>
               <% if (contact.first_name.match("^D")) { %>
                   <li class="d">
-                      <a href="#">
+                      <a href="<%= contact.first_name %>">
                           <%= contact.first_name %>
                       </a>
                   </li>
