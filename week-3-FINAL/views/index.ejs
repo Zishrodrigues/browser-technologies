@@ -1,11 +1,8 @@
 <% include head.ejs %>
 <form action="/" method="post">
-  <input type="text" name="q" onkeyup="filtering()" value="" id="search" />
-  <button id="formButton" type="submit">Zoek contact</button>
+  <input type="text" name="q" value="" id="search" />
+  <button id="formButton" type="submit">Zoek contact (hoofdletter gevoelig)</button>
 </form>
-<!-- hier de html contacten -->
-<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/position -->
-<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/position -->
 
 <ul class="addressBook" id="listUl">
     <li class="letterMarker a">
@@ -31,7 +28,7 @@
             </li>
     <%}}); %>
     <li class="letterMarker c">
-        C
+        <h1>C</h1>
     </li>
      <% contacts.forEach(function(contact) { %>
          <% if (contact.first_name.match("^C")) { %>
@@ -42,7 +39,7 @@
              </li>
          <% }}); %>
          <li class="letterMarker d">
-             D
+             <h1>D</h1>
          </li>
           <% contacts.forEach(function(contact) { %>
               <% if (contact.first_name.match("^D")) { %>
