@@ -1,5 +1,7 @@
 # Browser Technologies - Final [List Demo]
 
+V 2.0.0 | Zishan K. Pasha
+
 For this project I created a demo of a address list build using HTML, CSS and Javascript. The project has multiple fallbacks in place in case a user doesn't have access to css or javascript, some using serverside rendering.
 
 ## Installing the project
@@ -23,7 +25,7 @@ Make sure port 3000 isn't being used by another project. If this is the case run
 ```
 $ npm start
 ```
-If you get the message ```app listening in port 3000 ``` the server started successfully on localhost:3000.
+If you get the message ```app listening in port 3005 ``` the server started successfully on localhost:3005.
 
 ## Project overview
 
