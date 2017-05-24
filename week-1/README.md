@@ -40,18 +40,18 @@ The app gives you what I call a 'filter moodboard'. This is a set of images rela
 
 Example of a moodboard that let's the user select a city
 
-![Funda app screenshot](screenshots/funda-1.jpg)
+![Funda app screenshot](funda-browsertech/screenshots/funda-1.jpg)
 
 Example of a moodboard that let's a user select their preferred house interior style
 
-![Funda app screenshot2](screenshots/funda-2.jpg)
+![Funda app screenshot2](funda-browsertech/screenshots/funda-2.jpg)
 
 General results page
 
-![Funda app screenshot3](screenshots/funda-3.jpg)
+![Funda app screenshot3](funda-browsertech/screenshots/funda-3.jpg)
 
 Detail page
 
-![Funda app screenshot4](screenshots/funda-4.jpg)
+![Funda app screenshot4](funda-browsertech/screenshots/funda-4.jpg)
 
 [Progressive enhancement/accessibility rest and todo's](RESEARCH-TODO.md)
