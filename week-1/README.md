@@ -7,24 +7,24 @@
 ## Device Lab
 
 ### Android Phone
-![Funda app screenshot](screenshots/android-phone.jpg)
+![Funda app screenshot](devicelab/android-phone.jpg)
 
 ### Android Tablet
-![Funda app screenshot](screenshots/android-tablet.jpg)
+![Funda app screenshot](devicelab/android-tablet.jpg)
 
 ### E-reader
-![Funda app screenshot](screenshots/ereader.jpg)
+![Funda app screenshot](devicelab/ereader.jpg)
 
-![Funda app screenshot](screenshots/ereader-2.jpg)
+![Funda app screenshot](devicelab/ereader-2.jpg)
 
 ### Macbook Chrome
-![Funda app screenshot](screenshots/macbook-chrome.jpg)
+![Funda app screenshot](devicelab/macbook-chrome.jpg)
 
 ### Macbook Safari
-![Funda app screenshot](screenshots/macbook-safari.jpg)
+![Funda app screenshot](devicelab/macbook-safari.jpg)
 
 ### Older android tablet
-![Funda app screenshot](screenshots/older-android-tablet.jpg)
+![Funda app screenshot](devicelab/older-android-tablet.jpg)
 
 ## Screen reader analysis (NVDA)
 
